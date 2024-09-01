@@ -1,0 +1,35 @@
+.result-table .sortable {
+  cursor: pointer;
+}
+
+
+.result-table .match-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 1px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  position: relative;
+  line-height: 16px;
+  -khtml-opacity: 0.99;
+  -moz-opacity: 0.99;
+  -ms-filter: "alpha(opacity=99)";
+  filter: alpha(opacity = 99);
+  opacity: 0.99;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.result-table .match-icon.match-icon-d {
+  background: orange;
+}
+
+.result-table .match-icon.match-icon-w {
+  background: green;
+}
+
+.result-table .match-icon.match-icon-l {
+  background: red;
+}
